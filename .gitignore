@@ -1,0 +1,18 @@
+# Output files — never commit scan results
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
